@@ -12,3 +12,13 @@ function parallax(e) {
     p_layer.style.transform = "translate(" + p_x + "px," + p_y + "px)";
   });
 }
+const menu = document.querySelector(".menu");
+window.addEventListener("scroll", function () {
+  menu.classList.toggle("active", window.scrollY > 0);
+});
+const burger = document.querySelector(".nav-menu");
+burger.addEventListener("click", function () {
+  const navMenu = document.querySelector(".nav-bar");
+  navMenu.classList.toggle("navActive");
+  menu.classList.toggle("navActive");
+});
