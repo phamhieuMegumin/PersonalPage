@@ -426,6 +426,13 @@
   .header-content > h1 {
     font-size: 30px;
   }
+  .contact .slide-social-media ul li {
+    margin: 0 5px;
+  }
+  .layer,
+  .p_layer {
+    animation: none;
+  }
 }
 /*------------------ Animation -------------------*/
 
