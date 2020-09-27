@@ -431,7 +431,7 @@
   }
   .layer,
   .p_layer {
-    transform: none;
+    transform: none !important;
   }
 }
 /*------------------ Animation -------------------*/
